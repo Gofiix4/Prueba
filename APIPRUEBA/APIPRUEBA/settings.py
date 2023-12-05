@@ -132,7 +132,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
-
+asd
 # STATIC_URL = '/static/'
 # Usar Google Cloud Storage para almacenar archivos estáticos.
 STATIC_URL = 'https://storage.googleapis.com/lic_admon/static/'
