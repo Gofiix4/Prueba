@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'APIPRUEBA.wsgi.application'
 DATABASES = {
    'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dbmigracion',
+        'NAME': 'admon',
         'USER': 'postgres',
         'PASSWORD': 'root',
         'HOST': 'localhost',  # O la dirección de tu servidor PostgreSQL

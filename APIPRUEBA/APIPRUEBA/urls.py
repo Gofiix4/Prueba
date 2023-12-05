@@ -15,4 +15,5 @@ urlpatterns = [
      path('googlecharts/',google.as_view(), name='google'),
      path('enviar-contrasena-temporal/<str:correo>/',views.enviar_contrasena_temporal, name='enviar-cotrasena-temporal'),
      path('enviar_correo/<str:nombre>/<str:correo>/<str:apellido>/<str:usuario>/<str:contra>/', views.enviar_correo, name='enviar_correo'),
+     
 ]
